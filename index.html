@@ -3,501 +3,717 @@
   <head>
     <title>Home</title>
     <meta name="format-detection" content="telephone=no">
-    <meta name="viewport" content="width=device-width height=device-height initial-scale=1.0 maximum-scale=1.0 user-scalable=0">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Work+Sans:300,400,500,700,800%7CPoppins:300,400,700">
+    <!-- Stylesheets-->
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Poppins:400,500%7CTeko:300,400,500%7CMaven+Pro:500">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/fonts.css">
-    <link rel="stylesheet" href="css/style.css" id="main-styles-link">
-    <style>.ie-panel{display: none;background: #212121;padding: 10px 0;box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3);clear: both;text-align:center;position: relative;z-index: 1;} html.ie-10 .ie-panel, html.lt-ie-10 .ie-panel {display: block;}</style>
+    <link rel="stylesheet" href="css/style.css">
+    <!--[if lt IE 10]>
+    <div style="background: #212121; padding: 10px 0; box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3); clear: both; text-align:center; position: relative; z-index:1;"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
+    <script src="js/html5shiv.min.js"></script>
+    <![endif]-->
   </head>
   <body>
-    <div class="ie-panel"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
     <div class="preloader">
-      <div class="preloader-logo"><img src="images/logo-default-151x44.png" alt="" width="151" height="44" srcset="images/logo-default-151x44.png 2x"/>
-      </div>
       <div class="preloader-body">
-        <div id="loadingProgressG">
-          <div class="loadingProgressG" id="loadingProgressG_1"></div>
+        <div class="cssload-container"><span></span><span></span><span></span><span></span>
         </div>
       </div>
     </div>
     <div class="page">
-      <!-- Page Header--><a class="banner banner-top" href="https://www.templatemonster.com/intense-multipurpose-html-template.html" target="_blank"><img src="images/intense_02.jpg" alt=""/></a>
-      <header class="section novi-background page-header">
+      <!-- Top Banner--><a class="section section-banner text-center d-none d-xl-block" href="https://www.templatemonster.com/intense-multipurpose-html-template.html" style="background-image: url(images/banner/banner-bg-02-1920x60.jpg); background-image: -webkit-image-set( url(images/banner/banner-bg-02-1920x60.jpg) 1x, url(images/banner/banner-bg-02-3840x120.jpg) 2x )" target="_blank"><img src="images/banner/banner-fg-02-1600x60.png" srcset="images/banner/banner-fg-02-1600x60.png 1x, images/banner/banner-fg-02-3200x120.png 2x" alt="" width="1600" height="310"></a>
+      <!-- Page Header-->
+      <header class="section page-header">
         <!-- RD Navbar-->
         <div class="rd-navbar-wrap">
-          <nav class="rd-navbar rd-navbar-corporate" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-static" data-lg-stick-up="true" data-lg-stick-up-offset="118px" data-xl-layout="rd-navbar-static" data-xl-device-layout="rd-navbar-static" data-xl-stick-up="true" data-xl-stick-up-offset="118px" data-xxl-layout="rd-navbar-static" data-xxl-device-layout="rd-navbar-static" data-xxl-stick-up-offset="118px" data-xxl-stick-up="true">
-            <div class="rd-navbar-aside-outer">
-              <div class="rd-navbar-aside">
+          <nav class="rd-navbar rd-navbar-classic" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-fixed" data-xl-layout="rd-navbar-static" data-xl-device-layout="rd-navbar-static" data-xxl-layout="rd-navbar-static" data-xxl-device-layout="rd-navbar-static" data-lg-stick-up-offset="46px" data-xl-stick-up-offset="46px" data-xxl-stick-up-offset="46px" data-lg-stick-up="true" data-xl-stick-up="true" data-xxl-stick-up="true">
+            <div class="rd-navbar-main-outer">
+              <div class="rd-navbar-main">
                 <!-- RD Navbar Panel-->
                 <div class="rd-navbar-panel">
                   <!-- RD Navbar Toggle-->
-                  <button class="rd-navbar-toggle" data-rd-navbar-toggle="#rd-navbar-nav-wrap-1"><span></span></button>
-                  <!-- RD Navbar Brand--><a class="rd-navbar-brand" href="index.html"><img src="images/logo-default-151x44.png" alt="" width="151" height="44" srcset="images/logo-default-151x44.png 2x"/></a>
+                  <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
+                  <!-- RD Navbar Brand-->
+                  <div class="rd-navbar-brand"><a class="brand" href="index.html"><img src="images/logo-default-229x43.png" alt="" width="229" height="43"/></a></div>
                 </div>
-                <div class="rd-navbar-collapse">
-                  <button class="rd-navbar-collapse-toggle rd-navbar-fixed-element-1" data-rd-navbar-toggle="#rd-navbar-collapse-content-1"><span></span></button>
-                  <div class="rd-navbar-collapse-content" id="rd-navbar-collapse-content-1">
-                    <article class="unit align-items-center">
-                      <div class="unit-left"><span class="icon novi-icon icon-md icon-modern mdi mdi-phone"></span></div>
-                      <div class="unit-body">
-                        <ul class="list-0">
-                          <li><a class="link-default" href="tel:#">1-800-1234-567</a></li>
-                          <li><a class="link-default" href="tel:#">1-800-8763-765</a></li>
-                        </ul>
+                <div class="rd-navbar-main-element">
+                  <div class="rd-navbar-nav-wrap">
+                    <!-- RD Navbar Basket-->
+                    <div class="rd-navbar-basket-wrap">
+                      <button class="rd-navbar-basket fl-bigmug-line-shopping198" data-rd-navbar-toggle=".cart-inline"><span>2</span></button>
+                      <div class="cart-inline">
+                        <div class="cart-inline-header">
+                          <h5 class="cart-inline-title">In cart:<span> 2</span> Products</h5>
+                          <h6 class="cart-inline-title">Total price:<span> $800</span></h6>
+                        </div>
+                        <div class="cart-inline-body">
+                          <div class="cart-inline-item">
+                            <div class="unit align-items-center">
+                              <div class="unit-left"><a class="cart-inline-figure" href="#"><img src="images/product-mini-9-100x100.png" alt="" width="100" height="100"/></a></div>
+                              <div class="unit-body">
+                                <h6 class="cart-inline-name"><a href="#">CB2 Coup Grey Office Chair</a></h6>
+                                <div>
+                                  <div class="group-xs group-middle-custom">
+                                    <div class="table-cart-stepper">
+                                      <input class="form-input" type="number" data-zeros="true" value="1" min="1" max="1000"/>
+                                    </div>
+                                    <h6 class="cart-inline-title">$550</h6>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="cart-inline-item">
+                            <div class="unit align-items-center">
+                              <div class="unit-left"><a class="cart-inline-figure" href="#"><img src="images/product-mini-10-100x100.png" alt="" width="100" height="100"/></a></div>
+                              <div class="unit-body">
+                                <h6 class="cart-inline-name"><a href="#">Ikea Tertial Work lamp</a></h6>
+                                <div>
+                                  <div class="group-xs group-middle-custom">
+                                    <div class="table-cart-stepper">
+                                      <input class="form-input" type="number" data-zeros="true" value="1" min="1" max="1000"/>
+                                    </div>
+                                    <h6 class="cart-inline-title">$250</h6>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="cart-inline-footer">
+                          <div class="group-sm"><a class="button button-md button-default-outline-2 button-wapasha" href="#">Go to cart</a><a class="button button-md button-primary button-pipaluk" href="#">Checkout</a></div>
+                        </div>
                       </div>
-                    </article>
-                    <article class="unit align-items-center">
-                      <div class="unit-left"><span class="icon novi-icon icon-md icon-modern mdi mdi-map-marker"></span></div>
-                      <div class="unit-body"><a class="link-default" href="tel:#">2130 Fulton Street <br> San Diego, CA 94117-1080</a></div>
-                    </article><a class="button button-gray-bordered button-winona" href="#">Request a call</a>
+                    </div>
+                    <!-- RD Navbar Search-->
+                    <div class="rd-navbar-search">
+                      <button class="rd-navbar-search-toggle" data-rd-navbar-toggle=".rd-navbar-search"><span></span></button>
+                      <form class="rd-search" action="#" method="GET">
+                        <div class="form-wrap">
+                          <label class="form-label" for="rd-navbar-search-form-input">Search...</label>
+                          <input class="rd-navbar-search-form-input form-input" id="rd-navbar-search-form-input" type="text" name="s" autocomplete="off"/>
+                        </div>
+                        <button class="rd-search-form-submit fl-bigmug-line-search74" type="submit"></button>
+                      </form>
+                    </div>
+                    <!-- RD Navbar Share-->
+                    <div class="rd-navbar-share fl-bigmug-line-share27" data-rd-navbar-toggle=".rd-navbar-share-list">
+                      <ul class="list-inline rd-navbar-share-list">
+                        <li class="rd-navbar-share-list-item"><a class="icon fa fa-facebook" href="#"></a></li>
+                        <li class="rd-navbar-share-list-item"><a class="icon fa fa-twitter" href="#"></a></li>
+                        <li class="rd-navbar-share-list-item"><a class="icon fa fa-google-plus" href="#"></a></li>
+                        <li class="rd-navbar-share-list-item"><a class="icon fa fa-instagram" href="#"></a></li>
+                      </ul><a class="rd-navbar-basket rd-navbar-basket-mobile fl-bigmug-line-shopping198" href="cart-page.html"><span>2</span></a>
+                    </div>
+                    <!-- RD Navbar Nav-->
+                    <ul class="rd-navbar-nav">
+                      <li class="rd-nav-item active"><a class="rd-nav-link" href="index.html">Home</a>
+                      </li>
+                      <li class="rd-nav-item"><a class="rd-nav-link" href="about-us.html">About Us</a>
+                      </li>
+                      <li class="rd-nav-item"><a class="rd-nav-link" href="typography.html">Typography</a>
+                      </li>
+                      <li class="rd-nav-item"><a class="rd-nav-link" href="contact-us.html">Contact Us</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="rd-navbar-project-hamburger" data-rd-navbar-toggle=".rd-navbar-main">
+                    <div class="project-hamburger"><span class="project-hamburger-arrow-top"></span><span class="project-hamburger-arrow-center"></span><span class="project-hamburger-arrow-bottom"></span></div>
+                    <div class="project-close"><span></span><span></span></div>
                   </div>
                 </div>
-              </div>
-            </div>
-            <div class="rd-navbar-main-outer">
-              <div class="rd-navbar-main">
-                <div class="rd-navbar-nav-wrap" id="rd-navbar-nav-wrap-1">
-                  <!-- RD Navbar Nav-->
-                  <ul class="rd-navbar-nav">
-                    <li class="rd-nav-item active"><a class="rd-nav-link" href="index.html">Home</a>
-                    </li>
-                    <li class="rd-nav-item"><a class="rd-nav-link" href="about-us.html">About us</a>
-                    </li>
-                    <li class="rd-nav-item"><a class="rd-nav-link" href="typography.html">Typography</a>
-                    </li>
-                    <li class="rd-nav-item"><a class="rd-nav-link" href="contacts.html">Contacts</a>
-                    </li>
-                  </ul>
+                <div class="rd-navbar-project rd-navbar-classic-project">
+                  <h4 class="text-spacing-50">Our Works</h4>
+                  <div class="rd-navbar-project-content rd-navbar-classic-project-content">
+                    <div class="row" data-lightgallery="group">
+                      <div class="col-12">
+                        <!-- Thumbnail Classic-->
+                        <article class="thumbnail thumbnail-mary">
+                          <div class="thumbnail-mary-figure"><img src="images/gallery-image-1-330x240.jpg" alt="" width="330" height="240"/>
+                          </div>
+                          <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="images/grid-gallery-4-1200x800-original.jpg" data-lightgallery="item"><img src="images/gallery-image-1-330x240.jpg" alt="" width="330" height="240"/></a>
+                          </div>
+                        </article>
+                      </div>
+                      <div class="col-12">
+                        <!-- Thumbnail Classic-->
+                        <article class="thumbnail thumbnail-mary">
+                          <div class="thumbnail-mary-figure"><img src="images/gallery-image-2-330x240.jpg" alt="" width="330" height="240"/>
+                          </div>
+                          <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="images/fullwidth-masonry-gallery-10-1200x800-original.jpg" data-lightgallery="item"><img src="images/gallery-image-2-330x240.jpg" alt="" width="330" height="240"/></a>
+                          </div>
+                        </article>
+                      </div>
+                      <div class="col-12">
+                        <!-- Thumbnail Classic-->
+                        <article class="thumbnail thumbnail-mary">
+                          <div class="thumbnail-mary-figure"><img src="images/gallery-image-3-330x240.jpg" alt="" width="330" height="240"/>
+                          </div>
+                          <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="images/fullwidth-gallery-4-1200x800-original.jpg" data-lightgallery="item"><img src="images/gallery-image-3-330x240.jpg" alt="" width="330" height="240"/></a>
+                          </div>
+                        </article>
+                      </div>
+                      <div class="col-12">
+                        <!-- Thumbnail Classic-->
+                        <article class="thumbnail thumbnail-mary">
+                          <div class="thumbnail-mary-figure"><img src="images/gallery-image-4-330x240.jpg" alt="" width="330" height="240"/>
+                          </div>
+                          <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="images/masonry-gallery-4-1200x800-original.jpg" data-lightgallery="item"><img src="images/gallery-image-4-330x240.jpg" alt="" width="330" height="240"/></a>
+                          </div>
+                        </article>
+                      </div>
+                      <div class="col-12">
+                        <!-- Thumbnail Classic-->
+                        <article class="thumbnail thumbnail-mary">
+                          <div class="thumbnail-mary-figure"><img src="images/gallery-image-5-330x240.jpg" alt="" width="330" height="240"/>
+                          </div>
+                          <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="images/fullwidth-masonry-gallery-6-1200x800-original.jpg" data-lightgallery="item"><img src="images/gallery-image-5-330x240.jpg" alt="" width="330" height="240"/></a>
+                          </div>
+                        </article>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </nav>
         </div>
       </header>
-      <section class="section swiper-container swiper-slider swiper-slider-minimal" data-loop="true" data-slide-effect="fade" data-autoplay="4759" data-simulate-touch="true">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide swiper-slide_video" data-slide-bg="images/slider-minimal-slide-1-1920x968.jpg">
-            <div class="container">
-              <div class="jumbotron-classic-content">
-                <div class="wow-outer">
-                  <div class="title-docor-text font-weight-bold title-decorated text-uppercase wow slideInLeft text-white">Offering Diverse</div>
-                </div>
-                <h1 class="text-uppercase text-white font-weight-bold wow-outer"><span class="wow slideInDown" data-wow-delay=".2s">Properties</span></h1>
-                <p class="text-white wow-outer"><span class="wow slideInDown" data-wow-delay=".35s">inHouse provides you with lots of great properties throughout the USA so that you could easily choose your dream property.</span></p>
-                <div class="wow-outer button-outer"><a class="button button-md button-primary button-winona wow slideInDown" href="#" data-wow-delay=".4s">View Properties</a></div>
+      <!-- Swiper-->
+      <section class="section swiper-container swiper-slider swiper-slider-classic" data-loop="true" data-autoplay="5000" data-simulate-touch="true" data-direction="vertical" data-nav="false">
+        <div class="swiper-wrapper text-center">
+          <div class="swiper-slide context-dark" data-slide-bg="images/slider-1-slide-1-1770x742.jpg">
+            <div class="swiper-slide-caption section-md">
+              <div class="container">
+                <h1 data-caption-animate="fadeInLeft" data-caption-delay="0">Innovative and affordable</h1>
+                <p class="text-width-large" data-caption-animate="fadeInRight" data-caption-delay="100">Our team uses innovations combined with customized interior planning to deliver the best interior design for your home or office while saving costs.</p><a class="button button-primary button-ujarak" href="#" data-caption-animate="fadeInUp" data-caption-delay="200">Get in touch</a>
               </div>
             </div>
           </div>
-          <div class="swiper-slide" data-slide-bg="images/slider-minimal-slide-2-1920x968.jpg">
-            <div class="container">
-              <div class="jumbotron-classic-content">
-                <div class="wow-outer">
-                  <div class="title-docor-text font-weight-bold title-decorated text-uppercase wow slideInLeft text-white">Easily</div>
-                </div>
-                <h1 class="text-uppercase text-white font-weight-bold wow-outer"><span class="wow slideInDown" data-wow-delay=".2s">Rent & Sale</span></h1>
-                <p class="text-white wow-outer"><span class="wow slideInDown" data-wow-delay=".35s">With the help of our services and property management solutions, you can rent or sell any house or apartment.</span></p>
-                <div class="wow-outer button-outer"><a class="button button-md button-primary button-winona wow slideInDown" href="#" data-wow-delay=".4s">View properties</a></div>
+          <div class="swiper-slide context-dark" data-slide-bg="images/slider-1-slide-2-1770x742.jpg">
+            <div class="swiper-slide-caption section-md">
+              <div class="container">
+                <h1 data-caption-animate="fadeInLeft" data-caption-delay="0">Committed and professional</h1>
+                <p class="text-width-large" data-caption-animate="fadeInRight" data-caption-delay="100">All our designers and architects are completely committed to the end result, while being fully professional in all aspects of interior planning and design.</p><a class="button button-primary button-ujarak" href="#" data-caption-animate="fadeInUp" data-caption-delay="200">Get in touch</a>
               </div>
             </div>
           </div>
-          <div class="swiper-slide" data-slide-bg="images/slider-minimal-slide-3-1920x968.jpg">
-            <div class="container">
-              <div class="jumbotron-classic-content">
-                <div class="wow-outer">
-                  <div class="title-docor-text font-weight-bold title-decorated text-uppercase wow slideInLeft text-white">More Than 20 Years of</div>
-                </div>
-                <h1 class="text-uppercase text-white font-weight-bold wow-outer"><span class="wow slideInDown" data-wow-delay=".2s">Experience</span></h1>
-                <p class="text-white wow-outer"><span class="wow slideInDown" data-wow-delay=".35s">Founded in 1989, our company is a team of renowned property management and real estate experts always ready to help you.</span></p>
-                <div class="wow-outer button-outer"><a class="button button-md button-primary button-winona wow slideInDown" href="#" data-wow-delay=".4s">View properties</a></div>
+          <div class="swiper-slide context-dark" data-slide-bg="images/slider-1-slide-3-1770x742.jpg">
+            <div class="swiper-slide-caption section-md">
+              <div class="container">
+                <h1 data-caption-animate="fadeInLeft" data-caption-delay="0">Harmonious and cozy</h1>
+                <p class="text-width-large" data-caption-animate="fadeInRight" data-caption-delay="100">We develop individual room concepts for private and commercial use. Our team focuses on the interior design of private living rooms, hotels, offices, and more.</p><a class="button button-primary button-ujarak" href="#" data-caption-animate="fadeInUp" data-caption-delay="200">Get in touch</a>
               </div>
             </div>
           </div>
         </div>
-        <div class="swiper-pagination-outer container">
-          <div class="swiper-pagination swiper-pagination-modern swiper-pagination-marked" data-index-bullet="true"></div>
+        <!-- Swiper Pagination-->
+        <div class="swiper-pagination__module">
+          <div class="swiper-pagination__fraction"><span class="swiper-pagination__fraction-index">00</span><span class="swiper-pagination__fraction-divider">/</span><span class="swiper-pagination__fraction-count">00</span></div>
+          <div class="swiper-pagination__divider"></div>
+          <div class="swiper-pagination"></div>
         </div>
       </section>
-      <section class="section novi-background section-md text-center">
+
+      <!-- See all services-->
+      <section class="section section-sm section-first bg-default text-center">
         <div class="container">
-          <h3 class="text-uppercase font-weight-bold wow-outer"><span class="wow slideInDown">Popular properties</span></h3>
-          <div class="row row-lg-50 row-35 offset-top-2">
-            <div class="col-md-6 wow-outer">
-              <!-- Post Modern-->
-              <article class="post-modern wow slideInLeft"><a class="post-modern-media" href="#"><img src="images/grid-blog-1-571x353.jpg" alt="" width="571" height="353"/></a>
-                <h4 class="post-modern-title"><a class="post-modern-title" href="#">5619 Walnut Hill Ln, Dallas, TX 75229</a></h4>
-                <ul class="post-modern-meta">
-                  <li><a class="button-winona" href="#">$1500/mon</a></li>
-                  <li>30 Sq. Ft.</li>
-                  <li>3 Bedrooms</li>
-                </ul>
-                <p>A comfortable residential property located in a quiet and cozy area.</p>
-              </article>
+          <div class="row row-30 justify-content-center">
+            <div class="col-md-7 col-lg-5 col-xl-6 text-lg-left wow fadeInUp">
+              <div class="figure-classic figure-classic-left"><img src="images/index-1-513x561.jpg" alt="" width="513" height="561"/>
+              </div>
             </div>
-            <div class="col-md-6 wow-outer">
-              <!-- Post Modern-->
-              <article class="post-modern wow slideInLeft"><a class="post-modern-media" href="#"><img src="images/grid-blog-2-571x353.jpg" alt="" width="571" height="353"/></a>
-                <h4 class="post-modern-title"><a class="post-modern-title" href="#">1808 Bolingbroke Pl, Fort Worth, TX 76140</a></h4>
-                <ul class="post-modern-meta">
-                  <li><a class="button-winona" href="#">$1300/mon</a></li>
-                  <li>40 Sq. Ft.</li>
-                  <li>2 Bedrooms</li>
-                </ul>
-                <p>Perfect for those who love both city life and the countryside.</p>
-              </article>
-            </div>
-            <div class="col-md-6 wow-outer">
-              <!-- Post Modern-->
-              <article class="post-modern wow slideInLeft"><a class="post-modern-media" href="#"><img src="images/grid-blog-3-571x353.jpg" alt="" width="571" height="353"/></a>
-                <h4 class="post-modern-title"><a class="post-modern-title" href="#">924 Bel Air Rd, Los Angeles, CA 90077</a></h4>
-                <ul class="post-modern-meta">
-                  <li><a class="button-winona" href="#">1800/mon</a></li>
-                  <li>50 Sq. Ft.</li>
-                  <li>4 Bedrooms</li>
-                </ul>
-                <p>Located in 5 mins from downtown, this property is great for anyone.</p>
-              </article>
-            </div>
-            <div class="col-md-6 wow-outer">
-              <!-- Post Modern-->
-              <article class="post-modern wow slideInLeft"><a class="post-modern-media" href="#"><img src="images/grid-blog-4-571x353.jpg" alt="" width="571" height="353"/></a>
-                <h4 class="post-modern-title"><a class="post-modern-title" href="#">13510 W Cheery Lynn Rd, Avondale, AZ 85392</a></h4>
-                <ul class="post-modern-meta">
-                  <li><a class="button-winona" href="#">$2700/mon</a></li>
-                  <li>90 Sq. Ft.</li>
-                  <li>2 Bedrooms</li>
-                </ul>
-                <p>A luxury mansion for people who enjoy the high-end amenities.</p>
-              </article>
-            </div>
-            <div class="col-md-12 wow-outer"><a class="button button-primary button-winona button-md" href="#">view More properties</a></div>
-          </div>
-        </div>
-      </section>
-      <section class="section novi-background section-lg bg-gray-100">
-        <div class="container">
-          <div class="row row-30">
-            <div class="col-sm-6 col-lg-4 wow-outer">
-              <!-- Box Minimal-->
-              <article class="box-minimal">
-                <div class="box-chloe__icon novi-icon linearicons-user wow fadeIn"></div>
-                <div class="box-minimal-main wow-outer">
-                  <h4 class="box-minimal-title wow slideInDown">Qualified Employees</h4>
-                  <p class="wow fadeInUpSmall">Our team consists of more than 20 qualified and experienced real estate brokers and property managers ready to help you.</p>
+            <div class="col-lg-7 col-xl-6">
+              <div class="row row-30">
+                <div class="col-sm-6 wow fadeInRight">
+                  <article class="box-icon-modern box-icon-modern-custom">
+                    <div>
+                      <h3 class="box-icon-modern-big-title">See all services</h3>
+                      <div class="box-icon-modern-decor"></div><a class="button button-md button-default-outline-2 button-wapasha" href="#">All services</a>
+                    </div>
+                  </article>
                 </div>
-              </article>
-            </div>
-            <div class="col-sm-6 col-lg-4 wow-outer">
-              <!-- Box Minimal-->
-              <article class="box-minimal">
-                <div class="box-chloe__icon novi-icon linearicons-bubble-text wow fadeIn" data-wow-delay=".1s"></div>
-                <div class="box-minimal-main wow-outer">
-                  <h4 class="box-minimal-title wow slideInDown" data-wow-delay=".1s">Free Consultations</h4>
-                  <p class="wow fadeInUpSmall" data-wow-delay=".1s">Our acquaintance with a client always begins with a free consultation to find out what kind of property they are looking for.</p>
+                <div class="col-sm-6 wow fadeInRight" data-wow-delay=".1s">
+                  <article class="box-icon-modern box-icon-modern-2">
+                    <div class="box-icon-modern-icon fl-bigmug-line-cropping1"></div>
+                    <h5 class="box-icon-modern-title"><a href="#">Space planning</a></h5>
+                    <div class="box-icon-modern-decor"></div>
+                    <p class="box-icon-modern-text">We create better interior experiences through space planning services.</p>
+                  </article>
                 </div>
-              </article>
-            </div>
-            <div class="col-sm-6 col-lg-4 wow-outer">
-              <!-- Box Minimal-->
-              <article class="box-minimal">
-                <div class="box-chloe__icon novi-icon linearicons-star wow fadeIn" data-wow-delay=".2s"></div>
-                <div class="box-minimal-main wow-outer">
-                  <h4 class="box-minimal-title wow slideInDown" data-wow-delay=".2s">100% Guaranteed</h4>
-                  <p class="wow fadeInUpSmall" data-wow-delay=".2s">All the results that you get from our realtors are 100% guaranteed to offer you the best choice of properties throughout the USA.</p>
+                <div class="col-sm-6 wow fadeInRight" data-wow-delay=".2s">
+                  <article class="box-icon-modern box-icon-modern-2">
+                    <div class="box-icon-modern-icon fl-bigmug-line-paintbrush9"></div>
+                    <h5 class="box-icon-modern-title"><a href="#">Interior design</a></h5>
+                    <div class="box-icon-modern-decor"></div>
+                    <p class="box-icon-modern-text">We develop and implement better interior design concepts for you.</p>
+                  </article>
                 </div>
-              </article>
+                <div class="col-sm-6 wow fadeInRight" data-wow-delay=".3s">
+                  <article class="box-icon-modern box-icon-modern-2">
+                    <div class="box-icon-modern-icon fl-bigmug-line-chat55"></div>
+                    <h5 class="box-icon-modern-title"><a href="#">Consultations</a></h5>
+                    <div class="box-icon-modern-decor"></div>
+                    <p class="box-icon-modern-text">Our specialists are ready to consult you on any interior design related topic.</p>
+                  </article>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </section>
-      <!-- Services-->
-      <section class="section novi-background section-lg text-center">
-        <div class="container">
-          <h3 class="text-uppercase">Residential property categories</h3>
-          <p><span class="text-width-1">At our agency, we work with various types of residential real estate property. You can find out more about our properties by browsing our website.</span></p>
-          <div class="row row-35 row-xxl-70 offset-top-2">
-            <div class="col-sm-6 col-lg-3">
-              <!-- Thumbnail Light-->
-              <article class="thumbnail-light"><a class="thumbnail-light-media" href="#"><img class="thumbnail-light-image" src="images/service-thumbnail-1-270x300.jpg" alt="" width="270" height="300"/></a>
-                <h4 class="thumbnail-light-title"><a href="#">Single-Family Homes</a></h4>
-              </article>
-            </div>
-            <div class="col-sm-6 col-lg-3">
-              <!-- Thumbnail Light-->
-              <article class="thumbnail-light"><a class="thumbnail-light-media" href="#"><img class="thumbnail-light-image" src="images/service-thumbnail-2-270x300.jpg" alt="" width="270" height="300"/></a>
-                <h4 class="thumbnail-light-title"><a href="#">Townhouses</a></h4>
-              </article>
-            </div>
-            <div class="col-sm-6 col-lg-3">
-              <!-- Thumbnail Light-->
-              <article class="thumbnail-light"><a class="thumbnail-light-media" href="#"><img class="thumbnail-light-image" src="images/service-thumbnail-3-270x300.jpg" alt="" width="270" height="300"/></a>
-                <h4 class="thumbnail-light-title"><a href="#">Multi-Family Homes</a></h4>
-              </article>
-            </div>
-            <div class="col-sm-6 col-lg-3">
-              <!-- Thumbnail Light-->
-              <article class="thumbnail-light"><a class="thumbnail-light-media" href="#"><img class="thumbnail-light-image" src="images/service-thumbnail-4-270x300.jpg" alt="" width="270" height="300"/></a>
-                <h4 class="thumbnail-light-title"><a href="#">Condominiums</a></h4>
-              </article>
-            </div>
-            <div class="col-md-12 wow-outer"><a class="button button-primary button-winona button-md" href="#">view all properties</a></div>
+
+      <!-- Latest Projects-->
+      <section class="section section-sm section-fluid bg-default text-center">
+        <div class="container-fluid">
+          <h3 class="wow fadeInLeft">Latest Projects</h3>
+          <p class="quote-jean wow fadeInRight" data-wow-delay=".1s">In our portfolio you can browse the latest interior designs created in various styles and for different purposes. Our qualified design professionals are always ready to design something spectacular for you, even if it’s a residential interior improvement.</p>
+          <div class="isotope-filters isotope-filters-horizontal">
+            <button class="isotope-filters-toggle button button-md button-icon button-icon-right button-default-outline button-wapasha" data-custom-toggle="#isotope-3" data-custom-toggle-hide-on-blur="true"><span class="icon fa fa-caret-down"></span>Filter</button>
+            <ul class="isotope-filters-list" id="isotope-3">
+              <li><a class="active" href="#" data-isotope-filter="*" data-isotope-group="gallery">All</a></li>
+              <li><a href="#" data-isotope-filter="Type 1" data-isotope-group="gallery">Apartments</a></li>
+              <li><a href="#" data-isotope-filter="Type 2" data-isotope-group="gallery">Offices</a></li>
+              <li><a href="#" data-isotope-filter="Type 3" data-isotope-group="gallery">Corporate designs</a></li>
+            </ul>
           </div>
-        </div>
-      </section>
-      <section class="section novi-background section-lg text-center bg-gray-100">
-        <div class="container">
-          <h3 class="text-uppercase wow-outer"><span class="wow slideInUp">Our Team</span></h3>
-          <div class="row row-lg-50 row-35 row-xxl-70 justify-content-center justify-content-lg-start">
-            <div class="col-md-10 col-lg-6 wow-outer">
-              <!-- Profile Creative-->
-              <article class="profile-creative wow slideInLeft">
-                <figure class="profile-creative-figure"><img class="profile-creative-image" src="images/team-1-270x273.jpg" alt="" width="270" height="273"/>
-                </figure>
-                <div class="profile-creative-main">
-                  <h5 class="profile-creative-title"><a href="#">Nathalie Porter</a></h5>
-                  <p class="profile-creative-position">Founder, Broker</p>
-                  <div class="profile-creative-contacts">
-                    <div class="object-inline"><span class="icon novi-icon icon-md mdi mdi-phone"></span><a href="tel:#">1-800-1324-567</a></div>
+          <div class="row row-30 isotope" data-isotope-layout="fitRows" data-isotope-group="gallery" data-lightgallery="group">
+            <div class="col-sm-6 col-lg-4 col-xxl-3 isotope-item wow fadeInLeft" data-filter="Type 3">
+              <!-- Thumbnail Classic-->
+              <article class="thumbnail thumbnail-classic thumbnail-md">
+                <div class="thumbnail-classic-figure"><img src="images/fullwidth-gallery-1-420x350.jpg" alt="" width="420" height="350"/>
+                </div>
+                <div class="thumbnail-classic-caption">
+                  <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60" href="images/fullwidth-gallery-1-1200x800-original.jpg" data-lightgallery="item"><img src="images/fullwidth-gallery-1-420x350.jpg" alt="" width="420" height="350"/></a>
+                    <h5 class="thumbnail-classic-title"><a href="#">379 Harvey Rd</a></h5>
                   </div>
-                  <p>Ms. Porter founded our company in 1989 with a vision to help guests and residents of the USA to easily find and buy or rent real estate in all 50 states.</p>
+                  <p class="thumbnail-classic-text">We work hard on every project to deliver top-notch interior design concepts that satisfy your wishes.</p>
                 </div>
               </article>
             </div>
-            <div class="col-md-10 col-lg-6 wow-outer">
-              <!-- Profile Creative-->
-              <article class="profile-creative wow slideInLeft" data-wow-delay=".2s">
-                <figure class="profile-creative-figure"><img class="profile-creative-image" src="images/team-2-270x273.jpg" alt="" width="270" height="273"/>
-                </figure>
-                <div class="profile-creative-main">
-                  <h5 class="profile-creative-title"><a href="#">John Thompson</a></h5>
-                  <p class="profile-creative-position">Sales Associate</p>
-                  <div class="profile-creative-contacts">
-                    <div class="object-inline"><span class="icon novi-icon icon-md mdi mdi-phone"></span><a href="tel:#">1-800-1324-567</a></div>
+            <div class="col-sm-6 col-lg-4 col-xxl-3 isotope-item wow fadeInLeft" data-filter="Type 2" data-wow-delay=".1s">
+              <!-- Thumbnail Classic-->
+              <article class="thumbnail thumbnail-classic thumbnail-md">
+                <div class="thumbnail-classic-figure"><img src="images/fullwidth-gallery-2-420x350.jpg" alt="" width="420" height="350"/>
+                </div>
+                <div class="thumbnail-classic-caption">
+                  <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60" href="images/fullwidth-gallery-2-1200x800-original.jpg" data-lightgallery="item"><img src="images/fullwidth-gallery-2-420x350.jpg" alt="" width="420" height="350"/></a>
+                    <h5 class="thumbnail-classic-title"><a href="#">64 James Ave</a></h5>
                   </div>
-                  <p>John has been in sales and marketing for the past 15 years. He has excellent knowledge about the local market both residential and commercial.</p>
+                  <p class="thumbnail-classic-text">We work hard on every project to deliver top-notch interior design concepts that satisfy your wishes.</p>
                 </div>
               </article>
             </div>
-            <div class="col-md-10 col-lg-6 wow-outer">
-              <!-- Profile Creative-->
-              <article class="profile-creative wow slideInLeft">
-                <figure class="profile-creative-figure"><img class="profile-creative-image" src="images/team-3-270x273.jpg" alt="" width="270" height="273"/>
-                </figure>
-                <div class="profile-creative-main">
-                  <h5 class="profile-creative-title"><a href="#">Brian Payne</a></h5>
-                  <p class="profile-creative-position">Realtor</p>
-                  <div class="profile-creative-contacts">
-                    <div class="object-inline"><span class="icon novi-icon icon-md mdi mdi-phone"></span><a href="tel:#">1-800-1324-567</a></div>
+            <div class="col-sm-6 col-lg-4 col-xxl-3 isotope-item wow fadeInLeft" data-filter="Type 1" data-wow-delay=".2s">
+              <!-- Thumbnail Classic-->
+              <article class="thumbnail thumbnail-classic thumbnail-md">
+                <div class="thumbnail-classic-figure"><img src="images/fullwidth-gallery-3-420x350.jpg" alt="" width="420" height="350"/>
+                </div>
+                <div class="thumbnail-classic-caption">
+                  <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60" href="images/grid-gallery-1-1200x800-original.jpg" data-lightgallery="item"><img src="images/fullwidth-gallery-3-420x350.jpg" alt="" width="420" height="350"/></a>
+                    <h5 class="thumbnail-classic-title"><a href="#">861 E. Oklahoma Dr</a></h5>
                   </div>
-                  <p>Brian is not only a Licensed Realtor but also holds the Title Producers and Mortgage Licenses, which makes him a very knowledgeable real estate expert.</p>
+                  <p class="thumbnail-classic-text">We work hard on every project to deliver top-notch interior design concepts that satisfy your wishes.</p>
                 </div>
               </article>
             </div>
-            <div class="col-md-10 col-lg-6 wow-outer">
-              <!-- Profile Creative-->
-              <article class="profile-creative wow slideInLeft" data-wow-delay=".2s">
-                <figure class="profile-creative-figure"><img class="profile-creative-image" src="images/team-4-270x273.jpg" alt="" width="270" height="273"/>
-                </figure>
-                <div class="profile-creative-main">
-                  <h5 class="profile-creative-title"><a href="#">Marie Fernandez</a></h5>
-                  <p class="profile-creative-position">Broker</p>
-                  <div class="profile-creative-contacts">
-                    <div class="object-inline"><span class="icon novi-icon icon-md mdi mdi-phone"></span><a href="tel:#">1-800-1324-567</a></div>
+            <div class="col-sm-6 col-lg-4 col-xxl-3 isotope-item wow fadeInLeft" data-filter="Type 3" data-wow-delay=".3s">
+              <!-- Thumbnail Classic-->
+              <article class="thumbnail thumbnail-classic thumbnail-md">
+                <div class="thumbnail-classic-figure"><img src="images/fullwidth-gallery-4-420x350.jpg" alt="" width="420" height="350"/>
+                </div>
+                <div class="thumbnail-classic-caption">
+                  <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60" href="images/fullwidth-gallery-4-1200x800-original.jpg" data-lightgallery="item"><img src="images/fullwidth-gallery-4-420x350.jpg" alt="" width="420" height="350"/></a>
+                    <h5 class="thumbnail-classic-title"><a href="#">14 Pulaski Str</a></h5>
                   </div>
-                  <p>Marie’s goal is to provide clients with the highest level of marketing expertise and customer service to help them reach their uppermost real estate goals.</p>
+                  <p class="thumbnail-classic-text">We work hard on every project to deliver top-notch interior design concepts that satisfy your wishes.</p>
+                </div>
+              </article>
+            </div>
+            <div class="col-sm-6 col-lg-4 col-xxl-3 isotope-item wow fadeInRight" data-filter="Type 2">
+              <!-- Thumbnail Classic-->
+              <article class="thumbnail thumbnail-classic thumbnail-md">
+                <div class="thumbnail-classic-figure"><img src="images/fullwidth-gallery-5-420x350.jpg" alt="" width="420" height="350"/>
+                </div>
+                <div class="thumbnail-classic-caption">
+                  <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60" href="images/fullwidth-gallery-5-1200x800-original.jpg" data-lightgallery="item"><img src="images/fullwidth-gallery-5-420x350.jpg" alt="" width="420" height="350"/></a>
+                    <h5 class="thumbnail-classic-title"><a href="#">8381 Peg Shop Str</a></h5>
+                  </div>
+                  <p class="thumbnail-classic-text">We work hard on every project to deliver top-notch interior design concepts that satisfy your wishes.</p>
+                </div>
+              </article>
+            </div>
+            <div class="col-sm-6 col-lg-4 col-xxl-3 isotope-item wow fadeInRight" data-filter="Type 1" data-wow-delay=".1s">
+              <!-- Thumbnail Classic-->
+              <article class="thumbnail thumbnail-classic thumbnail-md">
+                <div class="thumbnail-classic-figure"><img src="images/fullwidth-gallery-6-420x350.jpg" alt="" width="420" height="350"/>
+                </div>
+                <div class="thumbnail-classic-caption">
+                  <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60" href="images/fullwidth-gallery-6-1200x800-original.jpg" data-lightgallery="item"><img src="images/fullwidth-gallery-6-420x350.jpg" alt="" width="420" height="350"/></a>
+                    <h5 class="thumbnail-classic-title"><a href="#">830 Bridge Str</a></h5>
+                  </div>
+                  <p class="thumbnail-classic-text">We work hard on every project to deliver top-notch interior design concepts that satisfy your wishes.</p>
+                </div>
+              </article>
+            </div>
+            <div class="col-sm-6 col-lg-4 col-xxl-3 isotope-item wow fadeInRight" data-filter="Type 3" data-wow-delay=".2s">
+              <!-- Thumbnail Classic-->
+              <article class="thumbnail thumbnail-classic thumbnail-md">
+                <div class="thumbnail-classic-figure"><img src="images/fullwidth-gallery-7-420x350.jpg" alt="" width="420" height="350"/>
+                </div>
+                <div class="thumbnail-classic-caption">
+                  <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60" href="images/fullwidth-gallery-7-1200x800-original.jpg" data-lightgallery="item"><img src="images/fullwidth-gallery-7-420x350.jpg" alt="" width="420" height="350"/></a>
+                    <h5 class="thumbnail-classic-title"><a href="#">29 Water Ln</a></h5>
+                  </div>
+                  <p class="thumbnail-classic-text">We work hard on every project to deliver top-notch interior design concepts that satisfy your wishes.</p>
+                </div>
+              </article>
+            </div>
+            <div class="col-sm-6 col-lg-4 col-xxl-3 isotope-item wow fadeInRight" data-filter="Type 2" data-wow-delay=".3s">
+              <!-- Thumbnail Classic-->
+              <article class="thumbnail thumbnail-classic thumbnail-md">
+                <div class="thumbnail-classic-figure"><img src="images/fullwidth-gallery-8-420x350.jpg" alt="" width="420" height="350"/>
+                </div>
+                <div class="thumbnail-classic-caption">
+                  <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60" href="images/fullwidth-gallery-8-1200x800-original.jpg" data-lightgallery="item"><img src="images/fullwidth-gallery-8-420x350.jpg" alt="" width="420" height="350"/></a>
+                    <h5 class="thumbnail-classic-title"><a href="#">7262 Blue Spring Dr</a></h5>
+                  </div>
+                  <p class="thumbnail-classic-text">We work hard on every project to deliver top-notch interior design concepts that satisfy your wishes.</p>
                 </div>
               </article>
             </div>
           </div>
         </div>
       </section>
-      <!-- Best offer-->
-      <section class="section novi-background section-1 bg-primary-darker text-center" style="background-image: url(images/bg-1-1920-455.jpg);">
+
+      <!-- Years of experience-->
+      <section class="section section-sm bg-default">
         <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-sm-10 col-lg-7 col-xl-6">
-              <h3 class="wow-outer"><span class="wow slideInDown text-uppercase">Best offers</span></h3>
-              <p class="heading-subtitle">of September</p>
-              <p class="wow-outer offset-top-4"><span class="wow slideInDown" data-wow-delay=".05s">With a variety of accountants available at our company, you can always choose one that fits your corporate requirements.</span></p>
-              <div class="wow-outer button-outer"><a class="button button-primary-white button-winona wow slideInDown" href="#" data-wow-delay=".1s">Read more</a></div>
+          <div class="row row-50 row-xl-24 justify-content-center align-items-center align-items-lg-start text-left">
+            <div class="col-md-6 col-lg-5 col-xl-4 text-center"><a class="text-img" href="about-us.html"><span class="counter">10</span></a></div>
+            <div class="col-sm-8 col-md-6 col-lg-5 col-xl-4">
+              <div class="text-width-extra-small offset-top-lg-24 wow fadeInUp">
+                <h3 class="title-decoration-lines-left">Years of experience</h3>
+                <p class="text-gray-500">Creator is a renowned interior design studio established in 2008. We create new interiors for homes and offices.</p><a class="button button-secondary button-pipaluk" href="#">Get in touch</a>
+              </div>
+            </div>
+            <div class="col-sm-10 col-md-8 col-lg-6 col-xl-4 wow fadeInRight" data-wow-delay=".1s">
+              <div class="row justify-content-center border-2-column offset-top-xl-26">
+                <div class="col-9 col-sm-6">
+                  <div class="counter-amy">
+                    <div class="counter-amy-number"><span class="counter">2</span><span class="symbol">k</span>
+                    </div>
+                    <h6 class="counter-amy-title">Interiors</h6>
+                  </div>
+                </div>
+                <div class="col-9 col-sm-6">
+                  <div class="counter-amy">
+                    <div class="counter-amy-number"><span class="counter">40</span>
+                    </div>
+                    <h6 class="counter-amy-title">Monthly designs</h6>
+                  </div>
+                </div>
+                <div class="col-9 col-sm-6">
+                  <div class="counter-amy">
+                    <div class="counter-amy-number"><span class="counter">12</span>
+                    </div>
+                    <h6 class="counter-amy-title">Awards</h6>
+                  </div>
+                </div>
+                <div class="col-9 col-sm-6">
+                  <div class="counter-amy">
+                    <div class="counter-amy-number"><span class="counter">26</span>
+                    </div>
+                    <h6 class="counter-amy-title">Employees</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-xl-12 align-self-center">
+              <div class="row row-30 justify-content-center">
+                <div class="col-sm-6 col-md-5 col-lg-6 col-xl-3 wow fadeInLeft"><a class="clients-classic" href="#"><img src="images/clients-9-270x117.png" alt="" width="270" height="117"/></a></div>
+                <div class="col-sm-6 col-md-5 col-lg-6 col-xl-3 wow fadeInLeft" data-wow-delay=".1s"><a class="clients-classic" href="#"><img src="images/clients-10-270x117.png" alt="" width="270" height="117"/></a></div>
+                <div class="col-sm-6 col-md-5 col-lg-6 col-xl-3 wow fadeInLeft" data-wow-delay=".2s"><a class="clients-classic" href="#"><img src="images/clients-3-270x117.png" alt="" width="270" height="117"/></a></div>
+                <div class="col-sm-6 col-md-5 col-lg-6 col-xl-3 wow fadeInLeft" data-wow-delay=".3s"><a class="clients-classic" href="#"><img src="images/clients-11-270x117.png" alt="" width="270" height="117"/></a></div>
+              </div>
             </div>
           </div>
         </div>
       </section>
-      <section class="section novi-background section-lg text-center">
-        <div class="container">
-          <h3 class="wow-outer"><span class="wow slideInDown text-uppercase">Testimonials</span></h3>
-          <!-- Owl Carousel-->
-          <div class="owl-carousel wow fadeIn" data-items="1" data-md-items="2" data-lg-items="3" data-dots="true" data-nav="false" data-loop="true" data-autoplay="true" data-autoplay-speed="731" data-autoplay-timeout="4268" data-margin="30" data-stage-padding="0" data-mouse-drag="false">
-            <blockquote class="quote-classic">
-              <div class="quote-classic-meta">
-                <div class="quote-classic-avatar"><img src="images/testimonials-person-6-96x96.jpg" alt="" width="96" height="96"/>
+
+      <!-- Years of experience-->
+      <section class="section section-sm section-fluid bg-default">
+        <div class="container-fluid">
+          <h3>Different people  — one mission</h3>
+          <div class="row row-sm row-30 justify-content-center">
+            <div class="col-md-6 col-lg-5 col-xl-3 wow fadeInRight">
+              <!-- Team Classic-->
+              <article class="team-classic team-classic-lg"><a class="team-classic-figure" href="#"><img src="images/team-11-420x424.jpg" alt="" width="420" height="424"/></a>
+                <div class="team-classic-caption">
+                  <h5 class="team-classic-name"><a href="#">Ryan Wilson</a></h5>
+                  <p class="team-classic-status">Founder, Senior Designer</p>
                 </div>
-                <div class="quote-classic-info">
-                  <cite class="quote-classic-cite">Albert Webb</cite>
-                  <p class="quote-classic-caption">Regular Client</p>
+              </article>
+            </div>
+            <div class="col-md-6 col-lg-5 col-xl-3 wow fadeInRight" data-wow-delay=".1s">
+              <!-- Team Classic-->
+              <article class="team-classic team-classic-lg"><a class="team-classic-figure" href="#"><img src="images/team-12-420x424.jpg" alt="" width="420" height="424"/></a>
+                <div class="team-classic-caption">
+                  <h5 class="team-classic-name"><a href="#">Jill Peterson</a></h5>
+                  <p class="team-classic-status">Architect</p>
                 </div>
-              </div>
-              <div class="quote-classic-text">
-                <p>I have just bought an apartment in LA thanks to you and your brokers. Everything went smooth and easy, the price was quite affordable, and I’m sure I will use your services again in the future.</p>
-              </div>
-            </blockquote>
-            <blockquote class="quote-classic">
-              <div class="quote-classic-meta">
-                <div class="quote-classic-avatar"><img src="images/testimonials-person-1-96x96.jpg" alt="" width="96" height="96"/>
+              </article>
+            </div>
+            <div class="col-md-6 col-lg-5 col-xl-3 wow fadeInRight" data-wow-delay=".2s">
+              <!-- Team Classic-->
+              <article class="team-classic team-classic-lg"><a class="team-classic-figure" href="#"><img src="images/team-13-420x424.jpg" alt="" width="420" height="424"/></a>
+                <div class="team-classic-caption">
+                  <h5 class="team-classic-name"><a href="#">Sam Robinson</a></h5>
+                  <p class="team-classic-status">Senior Architect</p>
                 </div>
-                <div class="quote-classic-info">
-                  <cite class="quote-classic-cite">Kelly McMillan</cite>
-                  <p class="quote-classic-caption">Regular Client</p>
+              </article>
+            </div>
+            <div class="col-md-6 col-lg-5 col-xl-3 wow fadeInRight" data-wow-delay=".3s">
+              <!-- Team Classic-->
+              <article class="team-classic team-classic-lg"><a class="team-classic-figure" href="#"><img src="images/team-14-420x424.jpg" alt="" width="420" height="424"/></a>
+                <div class="team-classic-caption">
+                  <h5 class="team-classic-name"><a href="#">Mary Lee</a></h5>
+                  <p class="team-classic-status">Decorator</p>
                 </div>
-              </div>
-              <div class="quote-classic-text">
-                <p>I have recently sold my rental property in Nelson via inHouse. Everything about the sale was made seamless by your team. You gave me great advice about what was necessary to expedite the sale.</p>
-              </div>
-            </blockquote>
-            <blockquote class="quote-classic">
-              <div class="quote-classic-meta">
-                <div class="quote-classic-avatar"><img src="images/testimonials-person-2-96x96.jpg" alt="" width="96" height="96"/>
-                </div>
-                <div class="quote-classic-info">
-                  <cite class="quote-classic-cite">Harold Barnett</cite>
-                  <p class="quote-classic-caption">Regular Client</p>
-                </div>
-              </div>
-              <div class="quote-classic-text">
-                <p>I really appreciate your time and expertise in helping me find and buy my current home in Seattle, WA. Hope we can do business again in the future and I will recommend you to family and friends.</p>
-              </div>
-            </blockquote>
-            <blockquote class="quote-classic">
-              <div class="quote-classic-meta">
-                <div class="quote-classic-avatar"><img src="images/testimonials-person-3-96x96.jpg" alt="" width="96" height="96"/>
-                </div>
-                <div class="quote-classic-info">
-                  <cite class="quote-classic-cite">Bill Warner</cite>
-                  <p class="quote-classic-caption">Regular Client</p>
-                </div>
-              </div>
-              <div class="quote-classic-text">
-                <p>I have just sold a property with inHouse and I can’t thank them enough. Their team has great communication skills and they have regularly communicated with me throughout the whole process.</p>
-              </div>
-            </blockquote>
-            <blockquote class="quote-classic">
-              <div class="quote-classic-meta">
-                <div class="quote-classic-avatar"><img src="images/testimonials-person-4-96x96.jpg" alt="" width="96" height="96"/>
-                </div>
-                <div class="quote-classic-info">
-                  <cite class="quote-classic-cite">Ann Lee</cite>
-                  <p class="quote-classic-caption">Regular Client</p>
-                </div>
-              </div>
-              <div class="quote-classic-text">
-                <p>Your skilled team helped me make the dream of selling my old property a reality. The sale went smoothly, and I just closed on an ideal new place I am excited to call home. Thank you for your great services!</p>
-              </div>
-            </blockquote>
-            <blockquote class="quote-classic">
-              <div class="quote-classic-meta">
-                <div class="quote-classic-avatar"><img src="images/testimonials-person-5-96x96.jpg" alt="" width="96" height="96"/>
-                </div>
-                <div class="quote-classic-info">
-                  <cite class="quote-classic-cite">Peter Clarkson</cite>
-                  <p class="quote-classic-caption">Regular Client</p>
-                </div>
-              </div>
-              <div class="quote-classic-text">
-                <p>I have to say that inHouse has the best brokers we've ever worked with. Their professionalism, personality, attention to detail, responsiveness and ability to close the deal are outstanding!</p>
-              </div>
-            </blockquote>
+              </article>
+            </div>
           </div>
         </div>
-      </section><a class="banner" href="https://www.templatemonster.com/intense-multipurpose-html-template.html" target="_blank"><img src="images/intense_big_02.jpg" alt=""/></a>
-      <footer class="section novi-background footer-advanced bg-gray-700">
-        <div class="footer-advanced-main">
-          <div class="container">
-            <div class="row row-50">
-              <div class="col-lg-4">
-                <h5 class="font-weight-bold text-uppercase text-white">About Us</h5>
-                <p class="footer-advanced-text">inHouse is the largest full-service real estate and property management company. We offer expertise in the marketing and sale of a wide range of properties, including residential real estate, farms and lifestyle blocks, as well as commercial and industrial properties that we hope may interest you.</p>
-              </div>
-              <div class="col-sm-7 col-md-5 col-lg-4">
-                <h5 class="font-weight-bold text-uppercase text-white">Recent Blog Posts</h5>
-                <!-- Post Inline-->
-                <article class="post-inline">
-                  <p class="post-inline-title"><a href="#">Real Estate Guide: 7 Important Tips for Buying a Home</a></p>
-                  <ul class="post-inline-meta">
-                    <li>by Mike Barnes</li>
-                    <li><a href="#">2 days ago</a></li>
-                  </ul>
-                </article>
-                <!-- Post Inline-->
-                <article class="post-inline">
-                  <p class="post-inline-title"><a href="#">Single-Family Homes as a Housing Option for Young Families</a></p>
-                  <ul class="post-inline-meta"> 
-                    <li>by Mike Barnes</li>
-                    <li><a href="#">2 days ago</a></li>
-                  </ul>
-                </article>
-              </div>
-              <div class="col-sm-5 col-md-7 col-lg-4">
-                <h5 class="font-weight-bold text-uppercase text-white">Gallery</h5>
-                <div class="row row-x-10" data-lightgallery="group">
-                  <div class="col-3 col-sm-4 col-md-3"><a class="thumbnail-minimal" href="images/gallery-original-1.jpg" data-lightgallery="item"><img class="thumbnail-minimal-image" src="images/footer-gallery-1-85x85.jpg" alt=""/>
-                      <div class="thumbnail-minimal-caption"></div></a></div>
-                  <div class="col-3 col-sm-4 col-md-3"><a class="thumbnail-minimal" href="images/gallery-original-2.jpg" data-lightgallery="item"><img class="thumbnail-minimal-image" src="images/footer-gallery-2-85x85.jpg" alt=""/>
-                      <div class="thumbnail-minimal-caption"></div></a></div>
-                  <div class="col-3 col-sm-4 col-md-3"><a class="thumbnail-minimal" href="images/gallery-original-3.jpg" data-lightgallery="item"><img class="thumbnail-minimal-image" src="images/footer-gallery-3-85x85.jpg" alt=""/>
-                      <div class="thumbnail-minimal-caption"></div></a></div>
-                  <div class="col-3 col-sm-4 col-md-3"><a class="thumbnail-minimal" href="images/gallery-original-4.jpg" data-lightgallery="item"><img class="thumbnail-minimal-image" src="images/footer-gallery-4-85x85.jpg" alt=""/>
-                      <div class="thumbnail-minimal-caption"></div></a></div>
-                  <div class="col-3 col-sm-4 col-md-3"><a class="thumbnail-minimal" href="images/gallery-original-5.jpg" data-lightgallery="item"><img class="thumbnail-minimal-image" src="images/footer-gallery-5-85x85.jpg" alt=""/>
-                      <div class="thumbnail-minimal-caption"></div></a></div>
-                  <div class="col-3 col-sm-4 col-md-3"><a class="thumbnail-minimal" href="images/gallery-original-6.jpg" data-lightgallery="item"><img class="thumbnail-minimal-image" src="images/footer-gallery-6-85x85.jpg" alt=""/>
-                      <div class="thumbnail-minimal-caption"> </div></a></div>
-                  <div class="col-3 col-sm-4 col-md-3"><a class="thumbnail-minimal" href="images/gallery-original-7.jpg" data-lightgallery="item"><img class="thumbnail-minimal-image" src="images/footer-gallery-7-85x85.jpg" alt=""/>
-                      <div class="thumbnail-minimal-caption"></div></a></div>
-                  <div class="col-3 col-sm-4 col-md-3"><a class="thumbnail-minimal" href="images/gallery-original-8.jpg" data-lightgallery="item"><img class="thumbnail-minimal-image" src="images/footer-gallery-8-85x85.jpg" alt=""/>
-                      <div class="thumbnail-minimal-caption"></div></a></div>
+      </section>
+
+      <!-- You dream — we embody-->
+      <section class="section section-sm bg-default text-md-left">
+        <div class="container">
+          <div class="row row-50 align-items-center justify-content-center justify-content-xl-between">
+            <div class="col-lg-6 col-xl-5 wow fadeInLeft">
+              <h3>You dream — we embody</h3>
+              <!-- Bootstrap tabs-->
+              <div class="tabs-custom tabs-horizontal tabs-line tabs-line-big text-center text-md-left" id="tabs-6">
+                <!-- Nav tabs-->
+                <ul class="nav nav-tabs">
+                  <li class="nav-item" role="presentation"><a class="nav-link nav-link-big active" href="#tabs-6-1" data-toggle="tab">01</a></li>
+                  <li class="nav-item" role="presentation"><a class="nav-link nav-link-big" href="#tabs-6-2" data-toggle="tab">02</a></li>
+                  <li class="nav-item" role="presentation"><a class="nav-link nav-link-big" href="#tabs-6-3" data-toggle="tab">03</a></li>
+                  <li class="nav-item" role="presentation"><a class="nav-link nav-link-big" href="#tabs-6-4" data-toggle="tab">04</a></li>
+                </ul>
+                <!-- Tab panes-->
+                <div class="tab-content">
+                  <div class="tab-pane fade show active" id="tabs-6-1">
+                    <h5 class="font-weight-normal">Starting with the right idea</h5>
+                    <p>Every project we create starts with an idea, which eventually grows into a great design. But before it does, our team proposes several variants to choose from.</p>
+                    <div class="group-md group-middle"><a class="button button-secondary button-pipaluk" href="#">Get in touch</a><a class="button button-default-outline button-wapasha" href="#">Download presentation</a></div>
+                  </div>
+                  <div class="tab-pane fade" id="tabs-6-2">
+                    <h5 class="font-weight-normal">Developing the initial concept</h5>
+                    <p>After choosing the right design idea, our team members cooperate with you to create the initial concept, which will be a prototype of your final interior design.</p>
+                    <div class="group-md group-middle"><a class="button button-secondary button-pipaluk" href="#">Get in touch</a><a class="button button-default-outline button-wapasha" href="#">Download presentation</a></div>
+                  </div>
+                  <div class="tab-pane fade" id="tabs-6-3">
+                    <h5 class="font-weight-normal">Working on interior design implementation</h5>
+                    <p>After completion of the previous stage, we move on to implementing our project and creating a better interior design for your home or office.</p>
+                    <div class="group-md group-middle"><a class="button button-secondary button-pipaluk" href="#">Get in touch</a><a class="button button-default-outline button-wapasha" href="#">Download presentation</a></div>
+                  </div>
+                  <div class="tab-pane fade" id="tabs-6-4">
+                    <h5 class="font-weight-normal">Achieving the final result</h5>
+                    <p>Finally, we discuss what you like and don’t like in your new interior and try to make sure everything is done the way it should be so that you could enjoy your space.</p>
+                    <div class="group-md group-middle"><a class="button button-secondary button-pipaluk" href="#">Get in touch</a><a class="button button-default-outline button-wapasha" href="#">Download presentation</a></div>
+                  </div>
                 </div>
+              </div>
+            </div>
+            <div class="col-lg-6 text-center wow fadeInUp" data-wow-delay=".1s">
+              <div class="figure-classic figure-classic-right"><img src="images/index-2-556x434.jpg" alt="" width="556" height="434"/>
               </div>
             </div>
           </div>
         </div>
-        <div class="footer-advanced-aside">
-          <div class="container">
-            <div class="footer-advanced-layout">
-              <div>
-                <ul class="list-nav"> 
-                  <li><a href="index.html">Home</a></li>
-                  <li><a href="about-us.html">About</a></li>
-                  <li><a href="#">Properties</a></li>
-                  <li><a href="#">Blog</a></li>
-                  <li><a href="contacts.html">Contacts</a></li>
+      </section>
+
+      <!-- What people Say-->
+      <section class="section section-sm section-bottom-70 section-fluid bg-default">
+        <div class="container-fluid">
+          <h3>What people Say</h3>
+          <div class="row row-50 row-sm">
+            <div class="col-md-6 col-xl-4 wow fadeInRight">
+              <!-- Quote Modern-->
+              <article class="quote-modern quote-modern-custom">
+                <div class="unit unit-spacing-md align-items-center">
+                  <div class="unit-left"><a class="quote-modern-figure" href="#"><img class="img-circles" src="images/user-11-75x75.jpg" alt="" width="75" height="75"/></a></div>
+                  <div class="unit-body">
+                    <h5 class="quote-modern-cite"><a href="#">Catherine Williams</a></h5>
+                    <p class="quote-modern-status">Local shop owner</p>
+                  </div>
+                </div>
+                <div class="quote-modern-text">
+                  <p class="q">I chose Creator because of their knowledge, experience and attention to detail that has proven invaluable to me in creating a superior finished project, which attracts more clients to my shop.</p>
+                </div>
+              </article>
+            </div>
+            <div class="col-md-6 col-xl-4 wow fadeInRight" data-wow-delay=".1s">
+              <!-- Quote Modern-->
+              <article class="quote-modern quote-modern-custom">
+                <div class="unit unit-spacing-md align-items-center">
+                  <div class="unit-left"><a class="quote-modern-figure" href="#"><img class="img-circles" src="images/user-12-75x75.jpg" alt="" width="75" height="75"/></a></div>
+                  <div class="unit-body">
+                    <h5 class="quote-modern-cite"><a href="#">Rupert Wood</a></h5>
+                    <p class="quote-modern-status">House owner</p>
+                  </div>
+                </div>
+                <div class="quote-modern-text">
+                  <p class="q">This agency was highly recommended to me. The sensitivity, knowledge, vision and ultimate execution this firm brought to the table was tremendous. Thank you for the amazing interior!</p>
+                </div>
+              </article>
+            </div>
+            <div class="col-md-6 col-xl-4 wow fadeInRight" data-wow-delay=".2s">
+              <!-- Quote Modern-->
+              <article class="quote-modern quote-modern-custom">
+                <div class="unit unit-spacing-md align-items-center">
+                  <div class="unit-left"><a class="quote-modern-figure" href="#"><img class="img-circles" src="images/user-20-75x75.jpg" alt="" width="75" height="75"/></a></div>
+                  <div class="unit-body">
+                    <h5 class="quote-modern-cite"><a href="#">Samantha Brown</a></h5>
+                    <p class="quote-modern-status">Freelancer</p>
+                  </div>
+                </div>
+                <div class="quote-modern-text">
+                  <p class="q">Your professional guidance gave me results that far exceeded my expectations. My clients thoroughly enjoy the fun, relaxing ambience that the interior design creates. Thank you!</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Latest blog posts-->
+      <section class="section section-sm section-last bg-default">
+        <div class="container">
+          <h3>Latest blog posts</h3>
+          <div class="row row-60 row-sm">
+            <div class="col-sm-6 col-lg-4 wow fadeInLeft">
+              <!-- Post Modern-->
+              <article class="post post-modern"><a class="post-modern-figure" href="#"><img src="images/post-10-370x307.jpg" alt="" width="370" height="307"/>
+                  <div class="post-modern-time">
+                    <time datetime="2019-07-04"><span class="post-modern-time-number">04</span><span class="post-modern-time-month">July</span></time>
+                  </div></a>
+                <h5 class="post-modern-title"><a href="#">Designing a Children’s room</a></h5>
+                <p class="post-modern-text">Kids’ bedrooms aren’t usually noted for their sophisticated style. But it’s not a bad idea to design a room that your kid can grow into...</p>
+              </article>
+            </div>
+            <div class="col-sm-6 col-lg-4 wow fadeInLeft" data-wow-delay=".1s">
+              <!-- Post Modern-->
+              <article class="post post-modern"><a class="post-modern-figure" href="#"><img src="images/post-11-370x307.jpg" alt="" width="370" height="307"/>
+                  <div class="post-modern-time">
+                    <time datetime="2019-07-17"><span class="post-modern-time-number">17</span><span class="post-modern-time-month">July</span></time>
+                  </div></a>
+                <h5 class="post-modern-title"><a href="#">Home decor trends</a></h5>
+                <p class="post-modern-text">Trends are hard to keep up with. Ever-changing, contradictory, and sometimes seemingly senseless, no one can stay perfectly up to...</p>
+              </article>
+            </div>
+            <div class="col-sm-6 col-lg-4 wow fadeInLeft" data-wow-delay=".2s">
+              <!-- Post Modern-->
+              <article class="post post-modern"><a class="post-modern-figure" href="#"><img src="images/post-12-370x307.jpg" alt="" width="370" height="307"/>
+                  <div class="post-modern-time">
+                    <time datetime="2019-07-22"><span class="post-modern-time-number">22</span><span class="post-modern-time-month">July</span></time>
+                  </div></a>
+                <h5 class="post-modern-title"><a href="#">Bedroom space management</a></h5>
+                <p class="post-modern-text">Any sleep enthusiast would agree that the bedroom is pretty high up on the list of most important rooms in the house. There’s even...</p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Bottom Banner--><a class="section-banner" href="https://www.templatemonster.com/intense-multipurpose-html-template.html" style="background-image: url(images/banner/banner-bg-01-1920x310.jpg); background-image: -webkit-image-set( url(images/banner/banner-bg-01-1920x310.jpg) 1x, url(images/banner/banner-bg-01-3840x620.jpg) 2x )" target="_blank"><img src="images/banner/banner-fg-01-1600x310.png" srcset="images/banner/banner-fg-01-1600x310.png 1x, images/banner/banner-fg-01-3200x620.png 2x" alt="" width="1600" height="310"></a>
+      <!-- Page Footer-->
+      <footer class="section section-fluid footer-classic">
+        <div class="container-fluid">
+          <div class="row row-30 justify-content-center">
+            <div class="col-md-10 col-lg-12 col-xl-4 wow fadeInRight">
+              <div class="box-footer box-footer-small">
+                <div class="footer-brand"><a href="index.html"><img src="images/logo-inverse-229x43.png" alt="" width="229" height="43"/></a></div>
+                <p class="text-width-medium">Our design studio helps clients make wise decisions and avoid costly mistakes. Allow our designers and architectors to make your dream space a reality.</p>
+                <div class="contact-classic">
+                  <div class="contact-classic-item">
+                    <div class="unit align-items-center">
+                      <div class="unit-left">
+                        <h6 class="contact-classic-title">Address</h6>
+                      </div>
+                      <div class="unit-body contact-classic-link"><a href="#">4730 Crystal Springs Dr, Los Angeles, CA 90027</a></div>
+                    </div>
+                  </div>
+                  <div class="contact-classic-item">
+                    <div class="unit align-items-center">
+                      <div class="unit-left">
+                        <h6 class="contact-classic-title">Phones</h6>
+                      </div>
+                      <div class="unit-body contact-classic-link"><a href="tel:#">+1 323-913-4688</a>, <a href="tel:#"> +1 323-888-4554</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="contact-classic-item">
+                    <div class="unit align-items-center">
+                      <div class="unit-left">
+                        <h6 class="contact-classic-title">E-mails</h6>
+                      </div>
+                      <div class="unit-body contact-classic-link"><a href="mailto:#"> info@demolink.org</a>, <a href="mailto:#"> mail@demolink.org</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <ul class="list-inline list-inline-sm footer-social-list">
+                  <li><a class="icon fa fa-facebook" href="#"></a></li>
+                  <li><a class="icon fa fa-twitter" href="#"></a></li>
+                  <li><a class="icon fa fa-google-plus" href="#"></a></li>
+                  <li><a class="icon fa fa-instagram" href="#"></a></li>
                 </ul>
               </div>
-              <div>
-                <ul class="foter-social-links list-inline list-inline-md">
-                  <li><a class="icon novi-icon icon-sm link-default mdi mdi-facebook" href="#"></a></li>
-                  <li><a class="icon novi-icon icon-sm link-default mdi mdi-twitter" href="#"></a></li>
-                  <li><a class="icon novi-icon icon-sm link-default mdi mdi-instagram" href="#"></a></li>
-                  <li><a class="icon novi-icon icon-sm link-default mdi mdi-google" href="#"></a></li>
-                  <li><a class="icon novi-icon icon-sm link-default mdi mdi-linkedin" href="#"></a></li>
+            </div>
+            <div class="col-md-10 col-lg-6 col-xl-4 wow fadeInRight" data-wow-delay=".1s">
+              <div class="box-footer">
+                <h3 class="font-weight-normal">Questions? Contact Us</h3>
+                <form class="rd-form rd-mailform" data-form-output="form-output-global" data-form-type="contact" method="post" action="bat/rd-mailform.php">
+                  <div class="form-wrap">
+                    <input class="form-input" id="contact-name-6" type="text" name="name" data-constraints="@Required"/>
+                    <label class="form-label" for="contact-name-6">Name</label>
+                  </div>
+                  <div class="form-wrap">
+                    <input class="form-input" id="contact-email-6" type="email" name="email" data-constraints="@Email @Required"/>
+                    <label class="form-label" for="contact-email-6">E-mail</label>
+                  </div>
+                  <div class="form-wrap">
+                    <label class="form-label" for="contact-message-6">Message</label>
+                    <textarea class="form-input" id="contact-message-6" name="message" data-constraints="@Required"></textarea>
+                  </div>
+                  <button class="button button-block button-ujarak button-secondary" type="submit">Send Message</button>
+                </form>
+              </div>
+            </div>
+            <div class="col-md-10 col-lg-6 col-xl-4 wow fadeInRight" data-wow-delay=".2s">
+              <div class="box-footer">
+                <h3 class="font-weight-normal">See how we work</h3>
+                <ul class="footer-list-category">
+                  <li class="heading-5"><a href="#">Home design<span></span></a></li>
+                  <li class="heading-5"><a href="#">Commercial design<span></span></a></li>
+                  <li class="heading-5"><a href="#">Office design<span></span></a></li>
+                  <li class="heading-5"><a href="#">Consultations<span></span></a></li>
+                  <li class="heading-5"><a href="#">Architect services<span></span></a></li>
                 </ul>
               </div>
             </div>
           </div>
         </div>
-        <div class="container">
-          <hr/>
-        </div>
-        <div class="footer-advanced-aside">
-          <div class="container">
-            <div class="footer-advanced-layout"><a class="brand" href="index.html"><img src="images/logo-light-115x34.png" alt="" width="115" height="34" srcset="images/logo-light-115x34.png 2x"/></a>
-              <!-- Rights-->
-              <p class="rights"><span>&copy;&nbsp;</span><span class="copyright-year"></span>. All Rights Reserved. Design by <a href="https://www.templatemonster.com">TemplateMonster</a></p>
-            </div>
-          </div>
+        <div class="container footer-bottom-panel wow fadeInUp">
+          <!-- Rights-->
+          <p class="rights"><span>&copy;&nbsp;</span><span class="copyright-year"></span> <span>Creator</span>. All rights reserved. <span> Design&nbsp;by&nbsp;<a href="https://www.templatemonster.com">TemplateMonster</a></span>
+          </p>
         </div>
       </footer>
     </div>
@@ -506,5 +722,6 @@
     <!-- Javascript-->
     <script src="js/core.min.js"></script>
     <script src="js/script.js"></script>
+    <!-- coded by Himic-->
   </body>
 </html>
